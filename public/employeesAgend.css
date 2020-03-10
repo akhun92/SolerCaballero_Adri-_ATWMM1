@@ -37,6 +37,6 @@ img {
 }
 
 video {
-    width: 60px;
-    height: 60px;
+    width: auto;
+    height: 120px;
 }

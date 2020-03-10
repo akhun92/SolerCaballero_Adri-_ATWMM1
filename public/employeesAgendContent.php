@@ -12,7 +12,7 @@ $employeeslist = $employeesController->indexAction();
           <td><?=$employee->getPosition();?></td>
           <td><img src="<?=$employee->getPhoto();?>"></td>
           <td><?=$employee->getSalary();?></td>
-          <td><video>
+          <td><video controls>
               <source src="<?=$employee->getCv();?>" type="video/mp4">
           </video></td>
         </tr>
