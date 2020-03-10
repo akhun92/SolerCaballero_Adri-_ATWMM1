@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>empleados</title>
+    <title>empleats</title>
     <link rel="stylesheet" type="text/css" href="employeesAgend.css">
   </head>
   
