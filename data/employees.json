@@ -1,0 +1,19 @@
+{
+    "employees": [{
+            "name": "Adrià Soler Caballero",
+            "date": "09/04/1992",
+            "position": "WaterBoy",
+            "photo": "../media/photo/adria.jpg",
+            "salary": "900",
+            "cv": "../media/video/adria.mp4"
+        },
+        {
+            "name": "Eros Haro Sanchéz",
+            "date": "24/05/1988",
+            "position": "Técnico",
+            "photo": "../media/photo/eros.jpg",
+            "salary": "1700",
+            "cv": "../media/video/eros.mp4"
+        }
+    ]
+}

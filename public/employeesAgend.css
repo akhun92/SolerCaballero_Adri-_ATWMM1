@@ -1,0 +1,42 @@
+table {
+    font-size: medium;
+    margin-left: 10%;
+    text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    padding: 8px;
+    background-color: rgb(72, 10, 52);
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+tr {
+    background-color: rgb(184, 13, 116);
+    color: white;
+}
+
+tr:hover {
+    background-color: rgb(240, 64, 126);
+}
+
+td {
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+video {
+    width: 60px;
+    height: 60px;
+}
