@@ -6,7 +6,7 @@ class employeesController{
 
 	public function indexAction(){
 		$employees = array();
-		$file = file_get_contents(__DIR__."/../../data/employees.json");
+		$file = file_get_contents(__DIR__."/../../data/employeesData.json");
 		$data = json_decode($file);
 
 		foreach ($data->employees as $emp) {

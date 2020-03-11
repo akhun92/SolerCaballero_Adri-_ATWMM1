@@ -4,7 +4,9 @@ require_once(__DIR__.'/../lib/controller/employeesController.php');
 $employeesController = new employeesController();
 $employeeslist = $employeesController->indexAction();
 ?>
+
 <h1>Agenda Empleats</h1>
+
 <table>
   <tr>
     <th>Nom y Cognoms</th>
