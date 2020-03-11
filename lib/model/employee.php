@@ -1,8 +1,6 @@
 <?php
 
 class employee{
-
-
 	private $_name;
 	private $_date;
 	private $_position;
@@ -42,7 +40,5 @@ class employee{
 	public function getCv() {
 		return $this->_cv;
 	}
-
-
 }
 

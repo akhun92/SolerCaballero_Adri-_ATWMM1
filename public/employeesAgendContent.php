@@ -4,6 +4,16 @@ require_once(__DIR__.'/../lib/controller/employeesController.php');
 $employeesController = new employeesController();
 $employeeslist = $employeesController->indexAction();
 ?>
+<h1>Agenda Empleats</h1>
+<table>
+  <tr>
+    <th>Nom y Cognoms</th>
+    <th>Data de naixement</th>
+    <th>Posició actual</th>
+    <th>Foto</th>
+    <th>Sou</th>
+    <th>Videocurrículum</th>
+  </tr>
 
 <?php foreach($employeeslist as $employee){ ?>
   <tr>
@@ -15,6 +25,6 @@ $employeeslist = $employeesController->indexAction();
     <td><video controls>
       <source src="<?=$employee->getCv();?>" type="video/mp4">
     </video></td>
-  </tr>
-<?php } ?>
+  </tr><?php } ?>
+</table>
 

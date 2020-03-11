@@ -14,8 +14,7 @@ class employeesController{
 			array_push($employees, $employee);
 		}
 
-		return $employees;
-		
+		return ($employees);
 	}
 }
 

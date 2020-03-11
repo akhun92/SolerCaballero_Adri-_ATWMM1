@@ -5,10 +5,6 @@
   </head>
   
   <body>
-    <h1>Agenda Empleats</h1>
-    <table>
-        <?php include('employeesAgendHeader.php'); 
-              include('employeesAgendContent.php');?>
-    </table>
+        <?php include('employeesAgendContent.php');?>
   </body>
 </html>
