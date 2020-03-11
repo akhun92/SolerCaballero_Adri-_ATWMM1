@@ -1,10 +1,10 @@
 <html>
   <head>
     <title>empleats</title>
-    <link rel="stylesheet" type="text/css" href="employeesAgend.css">
+    <link rel="stylesheet" type="text/css" href="employeesContent.css">
   </head>
   
   <body>
-        <?php include('employeesAgendContent.php');?>
+        <?php include('employeesContent.php');?>
   </body>
 </html>
