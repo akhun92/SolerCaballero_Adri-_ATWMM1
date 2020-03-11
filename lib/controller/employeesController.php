@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__.'/../model/employee.php');
+require_once(__DIR__.'/../model/employeeModel.php');
 
 class employeesController{
 
