@@ -1,10 +1,17 @@
 ul {
     padding: 40px;
-    display: inline-block;
     background-color: rgb(184, 13, 116);
     color: white;
-    width: 15%;
-    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    flex: 1 0 0%;
+    display: inline-block;
+}
+
+li {
+    padding: 3px;
 }
 
 ul:hover {
@@ -24,10 +31,21 @@ video {
 
 h1 {
     padding-top: 20px;
-    padding-left: 20px;
     text-align: center;
     background-color: rgb(72, 10, 52);
     border-bottom: 1px solid #fff;
     color: white;
     height: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
 }
