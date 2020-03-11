@@ -4,19 +4,24 @@ require_once(__DIR__.'/../lib/controller/employeesController.php');
 $employeesController = new employeesController();
 $employeeslist = $employeesController->indexAction();
 ?>
-
+<head>
+    <title>LlistaEmpleats</title>
+    <link rel="stylesheet" type="text/css" href="employeesList.css">
+</head>
 <h1>Agenda Empleats</h1>
 
 <?php foreach($employeeslist as $employee){ ?>
     <ul>
-      <li style="list-style-type:none"><img src="<?=$employee->getPhoto();?>"></td>
-      <li><?=$employee->getName();?></td>
-      <li><?=$employee->getDate();?></td>
-      <li><?=$employee->getPosition();?></td>
-      <li><?=$employee->getSalary();?></td>
-      <li style="list-style-type:none"><video controls>
-        <source src="<?=$employee->getCv();?>" type="video/mp4">
-      </video></td>
+        <li style="list-style-type:none"><img src="<?=$employee->getPhoto();?>"></li>
+        <li><?=$employee->getName();?></li>
+        <li><?=$employee->getDate();?></li>
+        <li><?=$employee->getPosition();?></li>
+        <li><?=$employee->getSalary();?></li>
+        <li style="list-style-type:none; display: block-inline">
+            <video controls poster="../assets/photo/cv.jpg">
+            <source src="<?=$employee->getCv();?>" type="video/mp4">
+            </video>
+        </li>
     </ul>
 <?php } ?>
 
