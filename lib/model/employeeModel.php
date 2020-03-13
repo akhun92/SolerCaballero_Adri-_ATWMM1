@@ -1,6 +1,6 @@
 <?php
 
-class employee{
+class EmployeeModel{
 	private $_name;
 	private $_date;
 	private $_position;

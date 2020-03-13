@@ -1,7 +1,5 @@
 table {
-    font-size: medium;
     margin-left: 10%;
-    text-align: left;
     border-collapse: collapse;
     width: 80%;
 }
@@ -12,12 +10,12 @@ th {
     border-bottom: 1px solid #fff;
     color: white;
     text-align: center;
+    font-size: x-large;
+    text-align: center;
 }
 
 tr {
     background-color: rgb(184, 13, 116);
-    color: white;
-    text-align: center;
 }
 
 tr:hover {
@@ -26,6 +24,9 @@ tr:hover {
 
 td {
     padding: 8px;
+    color: white;
+    text-align: center;
+    font-size: large;
 }
 
 h1 {
