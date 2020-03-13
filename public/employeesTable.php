@@ -3,16 +3,16 @@ require_once(__DIR__.'/../lib/controller/employeesController.php');
 
 $employeesController = new employeesController();
 $employeeslist = $employeesController->indexAction();
+$employeeslist = $employeesController->sortedEmployeesByPosition($employeeslist);
 ?>
-<table>
-  <tr>
-    <th>Nom y Cognoms</th>
-    <th>Data de naixement</th>
-    <th>Posició actual</th>
-    <th>Foto</th>
-    <th>Sou</th>
-    <th>Videocurrículum</th>
-  </tr>
+<tr>
+  <th>Nom y Cognoms</th>
+  <th>Data de naixement</th>
+  <th>Posició actual</th>
+  <th>Foto</th>
+  <th>Sou</th>
+  <th>Videocurrículum</th>
+</tr>
 
 <?php foreach($employeeslist as $employee){ ?>
   <tr>
