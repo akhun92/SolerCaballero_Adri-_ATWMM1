@@ -22,7 +22,9 @@ class EmployeeModel{
 	}
 
 	public function getDate() {
-		return $this->_date;
+		$stringDate = date($this->_date);
+		$date = DateTime::createFromFormat("Y-m-d", $stringDate);
+		return strftime("%A %d de %B %Y", $date->getTimestamp());
 	}
 
 	public function getPosition() {
